@@ -4,15 +4,22 @@ import org.joda.time.DateTime;
 
 public class CourseProgramme {
 private String courseName;
-private Module module;
+private final Module[] module;
 private DateTime start= new DateTime();
 private DateTime end= new DateTime();
 
+public CourseProgramme(String courseName, Module[] module, DateTime start, DateTime end){
+    this.courseName= courseName;
+    this.module = module;
+    this.start = start;
+    this.end = end;
+    
+}
     public String getCourseName() {
         return courseName;
     }
 
-    public Module getModule() {
+    public Module[] getModule() {
         return module;
     }
 
