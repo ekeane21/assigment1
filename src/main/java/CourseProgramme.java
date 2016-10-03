@@ -22,8 +22,8 @@ public CourseProgramme(String courseName, Module[] module, DateTime start, DateT
     public Module[] getModule() {
         return module;
     }
-
-    public DateTime getStart() {
+    
+        public DateTime getStart() {
         return start;
     }
 
