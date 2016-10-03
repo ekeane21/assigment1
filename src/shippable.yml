@@ -2,7 +2,8 @@
 language: java
 
 # version numbers, testing against two versions of node
-jdk: jdk1.8.0_102
+jdk: 
+  - oraclejdk1.8.0_102
   
 # Running npm test to run your test cases
 script:
