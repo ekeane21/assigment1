@@ -1,3 +1,5 @@
+package com.github.ekeane21;
+
 public class Module {
 private Student[] student;
 private String module;
